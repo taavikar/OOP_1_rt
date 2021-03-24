@@ -3,9 +3,9 @@ import java.time.LocalDate;
 public class Mängija {
     private String nimi;
     private String sünnikuupäev;
-    private int raha;
+    //private int raha;
 
-    public Mängija(String nimi, String sünnikuupäev) {
+    public Mängija(String nimi, String sünnikuupäev){
         this.nimi = nimi;
         this.sünnikuupäev = sünnikuupäev;
     }
@@ -18,6 +18,7 @@ public class Mängija {
         return sünnikuupäev;
     }
 
+    /**
     public int getRaha() {
         return raha;
     }
@@ -25,6 +26,7 @@ public class Mängija {
     public void setRaha(int raha) {
         this.raha = raha;
     }
+     **/
 
     public int vanus(){
         String sp = sünnikuupäev.replace("-","");
