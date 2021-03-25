@@ -3,7 +3,6 @@ import java.time.LocalDate;
 public class Mängija {
     private String nimi;
     private String sünnikuupäev;
-    //private int raha;
 
     public Mängija(String nimi, String sünnikuupäev){
         this.nimi = nimi;
@@ -17,16 +16,6 @@ public class Mängija {
     public String getSünnikuupäev() {
         return sünnikuupäev;
     }
-
-    /**
-    public int getRaha() {
-        return raha;
-    }
-
-    public void setRaha(int raha) {
-        this.raha = raha;
-    }
-     **/
 
     public int vanus(){
         String sp = sünnikuupäev.replace("-","");

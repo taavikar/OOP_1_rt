@@ -36,9 +36,14 @@ public class TestMäng {
             System.out.println("Sisesta panus, mille eest sooviksid mängida: ");
             int panus = sc.nextInt();
 
+            //panuse sobivuse kontrollid
             boolean mänguLõpp = false;
             if (panus > mraha){
                 System.out.println("sellise panusega ei saa mängida");
+                continue;
+            }
+            if (panus<0){
+                System.out.println("Negatiivse panusega ei saa mängida");
                 continue;
             }
 

@@ -1,12 +1,10 @@
 public class Kaart {
     private String mast;
     private String suurus;
-    //private int väärtus;
 
     public Kaart(String mast, String suurus){
         this.mast = mast;
         this.suurus = suurus;
-        //this.väärtus = väärtus;
     }
 
     public String getMast() {
@@ -24,17 +22,6 @@ public class Kaart {
     public void setSuurus(String suurus) {
         this.suurus = suurus;
     }
-
-    /**
-    public int getVäärtus() {
-        return väärtus;
-    }
-
-    public void setVäärtus(int väärtus) {
-        this.väärtus = väärtus;
-    }
-
-     **/
 
     public String toString(){
         return "[" + mast + " " + suurus + "]";

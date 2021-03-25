@@ -18,15 +18,11 @@ public class Kaardipakk {
                 }
             }
         }
-        //https://www.geeksforgeeks.org/shuffle-or-randomize-a-list-in-java/
         Collections.shuffle(pakk);
     }
 
     String[] mastid = {"Risti","Ruutu","Ärtu","Poti"};
     String[] suurused = {"2","3","4","5","6","7","8","9","10","Poiss","Emand","Kuningas","Äss"};
-    //String[] mastid = {"C","D","H","S"};
-    //String[] suurused = {"2","3","4","5","6","7","8","9","10","J","Q","K","A"};
-    //int[] väärutus = {2,3,4,5,6,7,8,9,10,10,10,10,11};
 
     //käe väärtuse arvutamine
     public int käeVäärtus(){
